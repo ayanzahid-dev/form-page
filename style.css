@@ -1,0 +1,99 @@
+/* Google Font applied globally */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 500px;
+    background: #fff;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 18px;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+}
+
+/* Textarea */
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+/* Success Message */
+.success-message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: green;
+    font-weight: 500;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+}

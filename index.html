@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        
+        <form id="contactForm" novalidate>
+            <!-- Full Name -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your full name">
+                <small class="error-message"></small>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <small class="error-message"></small>
+            </div>
+
+            <!-- Message -->
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Type your message"></textarea>
+                <small class="error-message"></small>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Success Message -->
+        <p id="successMessage" class="success-message"></p>
+    </div>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
 </body>
 </html>
